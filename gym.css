@@ -1,0 +1,96 @@
+.img-edit {
+    object-fit: cover;
+    object-position: 100% 70%;
+}
+
+.parent {
+    position: relative;
+
+}
+
+.child-1 {
+    position: absolute;
+    top: 0;
+    left: 43%;
+    background-color: yellow;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    z-index: 3;
+}
+
+.child-1 h3 {
+    font-size: 15px;
+    font-weight: 700;
+    word-spacing: 4px;
+}
+
+.child-2 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    color: white;
+    z-index: 3;
+    word-spacing: 6px;
+}
+
+.child-3 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 550px;
+    background-color: rgb(0, 0, 0, 0.4);
+    z-index: 2;
+}
+
+.button-style {
+    color: black;
+    background-color: rgb(246, 246, 23);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 20px;
+    letter-spacing: 5px;
+}
+
+.connection1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    font-weight: 400;
+}
+.addon-style{
+    height: 40px;
+    background-color: black;
+}
+.edit-image{
+    height: 600px;
+    object-fit: cover;
+    object-position:50% 30% ;
+    width: 100%;
+   ;
+}
+.extra-style{
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    padding: 0px 5px;
+}
+.textstyle{
+    color: rgb(251, 251, 25);
+    font-weight: 900;
+    word-spacing: 6px;
+    letter-spacing: 6px;
+    font-size: 30px;
+}
+.textedit{
+    text-align: center;
+    letter-spacing: 6px;
+    word-spacing: 6px;
+    font-weight: 700;
+}
